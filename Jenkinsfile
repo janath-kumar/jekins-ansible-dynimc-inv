@@ -11,11 +11,11 @@ pipeline {
   stages {
     
     //Get the Code from GitHub Repo
-    stage('CheckOutCode'){
-      steps{
-        git credentialsId: '403a4b6e-7224-420e-8c25-211f70132342', url: 'https://github.com/janath-kumar/jekins-ansible-dynimc-inv.git'
-      }
-    }
+    //stage('CheckOutCode'){
+      //steps{
+        //git credentialsId: '403a4b6e-7224-420e-8c25-211f70132342', url: 'https://github.com/janath-kumar/jekins-ansible-dynimc-inv.git'
+      //}
+    //}
      
     //Using Terrafrom can create the Servers
     
